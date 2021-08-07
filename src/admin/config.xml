@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="helloapi"
+		label="COM_HELLOAPIS_FIELD_CONFIG_INDIVIDUAL_HELLOAPI_DISPLAY"
+		description="COM_HELLOAPIS_FIELD_CONFIG_INDIVIDUAL_HELLOAPI_DESC"
+		>
+		<field
+			name="show_helloapi_name_label"
+			type="list"
+			label="COM_HELLOAPIS_FIELD_HELLOAPI_SHOW_CATEGORY_LABEL"
+			default="1"
+			>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="custom_fields_enable"
+			type="radio"
+			class="switcher"
+			label="JGLOBAL_CUSTOM_FIELDS_ENABLE_LABEL"
+			default="1"
+			>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_name"
+			type="radio"
+			label="COM_HELLOAPIS_FIELD_PARAMS_NAME_LABEL"
+			default="1"
+			class="switcher"
+			>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+
+	</fieldset>
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+		>
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			validate="rules"
+			filter="rules"
+			component="com_helloapis"
+			section="component"
+		/>
+	</fieldset>
+</config>

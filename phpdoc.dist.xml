@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>sample_app</title>
+    <parser>
+        <target>docs</target>
+        <encoding>utf8</encoding>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+            <item>NOTE</item>
+            <item>REVIEW</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+        </extensions>
+        <visibility/>
+    </parser>
+    <transformer>
+        <target>docs</target>
+    </transformer>
+    <logging>
+        <level>warn</level>
+    </logging>
+    <transformations>
+        <template name="responsive" />
+    </transformations>
+    <files>
+        <directory>src</directory>
+        <ignore>tests/*</ignore>
+    </files>
+</phpdoc>

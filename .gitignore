@@ -1,0 +1,9 @@
+.idea/*
+!/docs/
+!/src
+!/README.md
+!/composer.json
+!/phpdoc.xml
+
+composer.lock
+/vendor/

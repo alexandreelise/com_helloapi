@@ -1,0 +1,24 @@
+{
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Alexandre ELISÉ",
+      "email": "contact@alexandre-elise.fr",
+      "homepage": "https://alexandre-elise.fr"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true,
+    "apcu-autoloader": true,
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=7.2.5",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "^9",
+    "phpdocumentor/phpdocumentor": "^v2.9.1"
+  }
+}

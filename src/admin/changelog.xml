@@ -1,0 +1,18 @@
+<changelogs>
+	<changelog>
+		<element>com_helloapis</element>
+		<type>component</type>
+		<version>Alexandre ELISÉ</version>
+		<note>
+			<item>Initial</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>com_helloapis</element>
+		<type>component</type>
+		<version>Alexandre ELISÉ</version>
+		<note>
+			<item>Add front end view</item>
+		</note>
+	</changelog>
+</changelogs>

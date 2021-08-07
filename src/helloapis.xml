@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" method="upgrade">
+    <name>COM_HELLOAPIS</name>
+    <creationDate>2021-08-07</creationDate>
+    <author>Alexandre ELISÉ</author>
+    <authorEmail>contact@alexandre-elise.fr</authorEmail>
+    <authorUrl>Alexandre ELISÉ</authorUrl>
+    <copyright>Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved</copyright>
+    <license>GNU General Public License version 2 or later;</license>
+    <version>Alexandre ELISÉ</version>
+    <description>COM_HELLOAPIS_XML_DESCRIPTION</description>
+    <!-- Really important for autoloading -->
+	<namespace path="src">AE\Component\Helloapis</namespace>
+    <scriptfile>script.php</scriptfile>
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <update>  <!-- Runs on update -->
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+
+	<!-- Joomla! 4.x Webservices files -->
+
+    <api>
+        <files folder="api/components/com_helloapis"
+               destination="api/components/com_helloapis">
+            <folder>src</folder>
+        </files>
+    </api>
+
+    <!-- Frond-end files -->
+    <files folder="site">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+    <media folder="media/com_helloapis" destination="com_helloapis">
+        <folder>js</folder>
+    </media>
+    <!-- Back-end files -->
+    <administration>
+        <!-- Menu entries -->
+        <menu view="helloapis">COM_HELLOAPIS</menu>
+        <submenu>
+            <menu link="option=com_helloapis">COM_HELLOAPIS</menu>
+            <menu link="option=com_categories&amp;extension=com_helloapis"
+                  view="categories" img="class:helloapis-cat"
+                  alt="Helloapis/Categories">JCATEGORY
+            </menu>
+        </submenu>
+        <files folder="admin">
+            <filename>access.xml</filename>
+            <filename>helloapis.xml</filename>
+            <filename>config.xml</filename>
+            <folder>src</folder>
+            <folder>forms</folder>
+            <folder>services</folder>
+            <folder>sql</folder>
+            <folder>tmpl</folder>
+            <folder>language</folder>
+        </files>
+    </administration>
+    <changelogurl>https://update.example.com/?extension=com_helloapi_0.1.0/changelog.xml
+    </changelogurl>
+    <updateservers>
+        <server type="extension" name="Helloapi Updates">
+            https://update.example.com/?extension=com_helloapi_Alexandre ELISÉ/helloapi_update.xml
+        </server>
+    </updateservers>
+    <dlid prefix="dlid=" suffix=""/>
+</extension>

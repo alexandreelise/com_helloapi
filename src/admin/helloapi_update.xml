@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>Helloapi</name>
+        <description>This is com_helloapi Alexandre ELISÉ</description>
+        <element>com_helloapi</element>
+        <type>component</type>
+        <version>Alexandre ELISÉ</version>
+        <downloads>
+            <downloadurl type="full" format="zip">https://www.example.com/com_helloapi_Alexandre ELISÉ.zip</downloadurl>
+        </downloads>
+        <maintainer>Helloapi Creator</maintainer>
+        <maintainerurl>https://www.example.com</maintainerurl>
+        <targetplatform name="joomla" version="4.0"/>
+        <client>site</client>
+		<php_minimum>7.2.5</php_minimum>
+    </update>
+</updates>
