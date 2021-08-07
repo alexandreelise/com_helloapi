@@ -11,6 +11,9 @@ INSERT INTO `#__helloapis_details` (`name`) VALUES
 ('Elmar'),
 ('Alexandre');
 
+ALTER TABLE `#__helloapis_details` ADD COLUMN  `asset_id` int(10) unsigned NOT NULL DEFAULT 0 AFTER `alias`;
+ALTER TABLE `#__helloapis_details` ADD KEY `idx_asset_id` (`asset_id`);
+
 ALTER TABLE `#__helloapis_details` ADD COLUMN  `access` int(10) unsigned NOT NULL DEFAULT 0 AFTER `alias`;
 
 ALTER TABLE `#__helloapis_details` ADD KEY `idx_access` (`access`);
@@ -37,8 +40,8 @@ ALTER TABLE `#__helloapis_details` ADD COLUMN  `ordering` int(11) NOT NULL DEFAU
 
 ALTER TABLE `#__helloapis_details` ADD COLUMN  `params` text NOT NULL AFTER `alias`;
 
-ALTER TABLE `#__helloapis_details` ADD COLUMN `checked_out` int(10) unsigned NOT NULL DEFAULT 0 AFTER `alias`;
-
-ALTER TABLE `#__helloapis_details` ADD COLUMN `checked_out_time` datetime AFTER `alias`;
+ALTER TABLE `#__helloapis_details` ADD COLUMN `checked_out` int(10) unsigned DEFAULT 0 AFTER `alias`;
 
 ALTER TABLE `#__helloapis_details` ADD KEY `idx_checkout` (`checked_out`);
+
+ALTER TABLE `#__helloapis_details` ADD COLUMN `checked_out_time` datetime AFTER `alias`;

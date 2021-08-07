@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 
 namespace AE\Component\Helloapis\Site\Model;
@@ -38,7 +38,7 @@ class HelloapiModel extends BaseDatabaseModel
 	 *
 	 * @return  mixed Object or null
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function getItem($pk = null)
 	{
@@ -88,7 +88,7 @@ class HelloapiModel extends BaseDatabaseModel
 	 *
 	 * @return  void
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function populateState()
 	{

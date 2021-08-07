@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Helloapi
  *
@@ -7,7 +8,7 @@
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 
 namespace AE\Component\Helloapis\Administrator\View\Helloapis;
@@ -136,7 +137,7 @@ class HtmlView extends BaseHtmlView
 	 *
 	 * @return  void
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function addToolbar()
 	{
@@ -210,7 +211,7 @@ class HtmlView extends BaseHtmlView
 	 *
 	 * @return  array  Array containing the field name to sort by as the key and display text as value
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function getSortFields()
 	{

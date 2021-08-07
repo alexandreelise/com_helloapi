@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Helloapi
  *
@@ -7,7 +8,7 @@
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 
 namespace AE\Component\Helloapis\Administrator\Helper;
@@ -21,7 +22,7 @@ use Joomla\CMS\Language\Text;
 /**
  * Helloapi component helper.
  *
- * @since  1.0
+ * @since  0.1.0
  */
 class HelloapiHelper extends ContentHelper
 {
@@ -32,7 +33,7 @@ class HelloapiHelper extends ContentHelper
 	 *
 	 * @return  void
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public static function addSubmenu($vName)
 	{

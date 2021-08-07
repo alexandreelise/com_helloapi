@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Helloapi
  *
@@ -7,7 +8,7 @@
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 
 namespace AE\Component\Helloapis\Administrator\View\Helloapi;
@@ -25,7 +26,7 @@ use Joomla\CMS\Toolbar\ToolbarHelper;
 /**
  * View to edit a helloapi.
  *
- * @since  1.0
+ * @since  0.1.0
  */
 class HtmlView extends BaseHtmlView
 {
@@ -75,7 +76,7 @@ class HtmlView extends BaseHtmlView
 	 *
 	 * @return  void
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function addToolbar()
 	{

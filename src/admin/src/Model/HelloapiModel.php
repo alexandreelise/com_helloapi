@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Helloapi
  *
@@ -7,7 +8,7 @@
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 
 namespace AE\Component\Helloapis\Administrator\Model;
@@ -22,7 +23,7 @@ use Joomla\CMS\MVC\Model\AdminModel;
 /**
  * Item Model for a Helloapi.
  *
- * @since  1.0
+ * @since  0.1.0
  */
 class HelloapiModel extends AdminModel
 {
@@ -30,7 +31,7 @@ class HelloapiModel extends AdminModel
 	 * The type alias for this content type.
 	 *
 	 * @var    string
-	 * @since  1.0
+	 * @since  0.1.0
 	 */
 	public $typeAlias = 'com_helloapis.helloapi';
 
@@ -38,7 +39,7 @@ class HelloapiModel extends AdminModel
 	 * The context used for the associations table
 	 *
 	 * @var    string
-	 * @since  1.0
+	 * @since  0.1.0
 	 */
 	protected $associationsContext = 'com_helloapis.item';
 
@@ -67,7 +68,7 @@ class HelloapiModel extends AdminModel
 	 *
 	 * @return  \JForm|boolean  A \JForm object on success, false on failure
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function getForm($data = array(), $loadData = true)
 	{
@@ -86,7 +87,7 @@ class HelloapiModel extends AdminModel
 	 *
 	 * @return  mixed  The data for the form.
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function loadFormData()
 	{
@@ -106,7 +107,7 @@ class HelloapiModel extends AdminModel
 	 *
 	 * @return  mixed  Object on success, false on failure.
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function getItem($pk = null)
 	{
@@ -142,7 +143,7 @@ class HelloapiModel extends AdminModel
 	 *
 	 * @return  void
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function preprocessForm(\JForm $form, $data, $group = 'content')
 	{

@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 namespace AE\Component\Helloapis\Site\Controller;
 
@@ -34,7 +34,7 @@ class DisplayController extends BaseController
 	 * @param   CMSApplication       $app      The JApplication for the dispatcher
 	 * @param   \JInput              $input    Input
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function __construct($config = array(), MVCFactoryInterface $factory = null, $app = null, $input = null)
 	{
@@ -49,7 +49,7 @@ class DisplayController extends BaseController
 	 *
 	 * @return  static  This object to support chaining.
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function display($cachable = false, $urlparams = array())
 	{

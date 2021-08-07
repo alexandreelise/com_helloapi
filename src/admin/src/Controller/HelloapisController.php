@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Helloapi
  *
@@ -7,7 +8,7 @@
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 
 namespace AE\Component\Helloapis\Administrator\Controller;
@@ -18,9 +19,9 @@ use Joomla\CMS\MVC\Controller\AdminController;
 use Joomla\CMS\MVC\Factory\MVCFactoryInterface;
 
 /**
- * Contacts list controller class.
+ * Helloapis list controller class.
  *
- * @since  1.0
+ * @since  0.1.0
  */
 class HelloapisController extends AdminController
 {
@@ -34,7 +35,7 @@ class HelloapisController extends AdminController
 	 * @param   CMSApplication       $app      The JApplication for the dispatcher
 	 * @param   \JInput              $input    Input
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function __construct($config = array(), MVCFactoryInterface $factory = null, $app = null, $input = null)
 	{
@@ -51,7 +52,7 @@ class HelloapisController extends AdminController
 	 *
 	 * @return  \Joomla\CMS\MVC\Model\BaseDatabaseModel
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function getModel($name = 'Helloapi', $prefix = 'Administrator', $config = array('ignore_request' => true))
 	{

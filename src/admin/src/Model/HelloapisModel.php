@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Helloapi
  *
@@ -7,7 +8,7 @@
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       Alexandre ELISÉ
+ * @link       https://alexandre-elise.fr
  */
 
 namespace AE\Component\Helloapis\Administrator\Model;
@@ -22,7 +23,7 @@ use Joomla\Utilities\ArrayHelper;
 /**
  * Methods supporting a list of helloapi records.
  *
- * @since  1.0
+ * @since  0.1.0
  */
 class HelloapisModel extends ListModel
 {
@@ -32,7 +33,7 @@ class HelloapisModel extends ListModel
 	 * @param   array  $config  An optional associative array of configuration settings.
 	 *
 	 * @see     \JControllerLegacy
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	public function __construct($config = array())
 	{
@@ -69,7 +70,7 @@ class HelloapisModel extends ListModel
 	 *
 	 * @return  \JDatabaseQuery
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function getListQuery()
 	{
@@ -224,7 +225,7 @@ class HelloapisModel extends ListModel
 	 *
 	 * @return  void
 	 *
-	 * @since   1.0
+	 * @since  0.1.0
 	 */
 	protected function populateState($ordering = 'a.name', $direction = 'asc')
 	{

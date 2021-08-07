@@ -59,7 +59,7 @@
         </submenu>
         <files folder="admin">
             <filename>access.xml</filename>
-            <filename>helloapis.xml</filename>
+            <filename>helloapi_update.xml</filename>
             <filename>config.xml</filename>
             <folder>src</folder>
             <folder>forms</folder>
