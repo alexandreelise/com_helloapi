@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 /**
- * Helloapi
+ * Helloapis
  *
- * @package    Helloapi
+ * @package    Helloapis
  *
  * @author     Alexandre ELISÉ <contact@alexandre-elise.fr>
  * @copyright  Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved
@@ -11,7 +11,7 @@ declare(strict_types=1);
  * @link       https://alexandre-elise.fr
  */
 
-namespace AE\Component\Helloapis\Api\View\Adresses;
+namespace AE\Component\Helloapis\Api\View\Helloapis;
 
 defined('_JEXEC') or die;
 

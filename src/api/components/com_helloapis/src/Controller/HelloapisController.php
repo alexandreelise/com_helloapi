@@ -11,7 +11,7 @@ declare(strict_types=1);
  * @link       https://alexandre-elise.fr
  */
 
-namespace AE\Component\Repertoires\Api\Controller;
+namespace AE\Component\Helloapis\Api\Controller;
 
 defined('_JEXEC') or die;
 
