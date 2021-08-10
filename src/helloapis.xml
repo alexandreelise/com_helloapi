@@ -7,7 +7,7 @@
     <authorUrl>Alexandre ELISÉ</authorUrl>
     <copyright>Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved</copyright>
     <license>GNU General Public License version 2 or later;</license>
-    <version>Alexandre ELISÉ</version>
+    <version>0.1.0</version>
     <description>COM_HELLOAPIS_XML_DESCRIPTION</description>
     <!-- Really important for autoloading -->
 	<namespace path="src">AE\Component\Helloapis</namespace>
