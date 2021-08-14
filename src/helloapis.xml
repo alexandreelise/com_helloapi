@@ -3,11 +3,11 @@
     <name>COM_HELLOAPIS</name>
     <creationDate>2021-08-07</creationDate>
     <author>Alexandre ELISÉ</author>
-    <authorEmail>contact@alexandre-elise.fr</authorEmail>
-    <authorUrl>https://alexandre-elise.fr</authorUrl>
+    <authorEmail>contact@alexapi.cloud</authorEmail>
+    <authorUrl>https://alexapi.cloud</authorUrl>
     <copyright>Copyright(c) 2009 - 2021 Alexandre ELISÉ. All rights reserved</copyright>
     <license>GNU General Public License version 2 or later;</license>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <description>COM_HELLOAPIS_XML_DESCRIPTION</description>
     <!-- Really important for autoloading -->
 	<namespace path="src">AE\Component\Helloapis</namespace>
@@ -69,11 +69,11 @@
             <folder>language</folder>
         </files>
     </administration>
-    <changelogurl>https://update.example.com/?extension=com_helloapi_0.1.0/changelog.xml
+    <changelogurl>https://update.example.com/?extension=com_helloapi_0.1.1/changelog.xml
     </changelogurl>
     <updateservers>
         <server type="extension" name="Helloapi Updates">
-            https://update.example.com/?extension=com_helloapi_Alexandre ELISÉ/helloapi_update.xml
+            https://update.example.com/?extension=com_helloapi_0.1.1/helloapi_update.xml
         </server>
     </updateservers>
     <dlid prefix="dlid=" suffix=""/>
