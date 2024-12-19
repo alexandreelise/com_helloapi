@@ -1,8 +1,8 @@
 # Helloapi
 
-> English: Example Joomla! 4 component as a way to create webservices enabled component
+> English: Example Joomla! 4 component as a way to create Web Services enabled component
 
-> Français: Exemple de composant Joomla! 4 qui montre comment créer un composant avec des webservices.
+> Français: Exemple de composant Joomla! 4 qui montre comment créer un composant avec des Services Web.
 
 
 --------------------------------------------
